@@ -9,7 +9,7 @@
 .
 ├── src/
 │   ├── program.ts         // คลาสหลักสำหรับรับ input และแสดงผล
-│   ├── pipe.ts            // ฟังก์ชันแปลงภาษาเอเลี่ยนเป็นตัวเลข
+│   ├── pipe/index.ts            // ฟังก์ชันแปลงภาษาเอเลี่ยนเป็นตัวเลข
 │   └── program.test.ts    // ชุด unit test
 ├── package.json
 ├── tsconfig.json
@@ -38,7 +38,7 @@
    # หรือ
    bun run test
    ```
-
+brew install gh
 
 ## ข้อกำหนด
 
@@ -53,4 +53,4 @@ MIT
 
 ---
 
-> สามารถแก้ไขหรือขยาย logic การแปลงภาษาเอเลี่ยนได้ในไฟล์ `src/pipe.ts`
+> สามารถแก้ไขหรือขยาย logic การแปลงภาษาเอเลี่ยนได้ในไฟล์ `src/pipe/index.ts`
