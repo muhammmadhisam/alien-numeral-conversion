@@ -1,0 +1,17 @@
+{
+  "name": "alien-numeral-conversion",
+  "private": true,
+  "scripts": {
+    "start": "tsx src/program.ts ",
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/node": "^24.0.0",
+    "effect": "^3.16.5",
+    "tsx": "^4.19.4",
+    "vitest": "^3.2.3"
+  }
+}
