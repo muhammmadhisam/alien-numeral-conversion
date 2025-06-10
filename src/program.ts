@@ -34,11 +34,10 @@ export class ConsoleApp {
         }
     }
 
-    // Method to display information
     private displayInfo(): void {
         console.log("\n--- Information ---");
         console.log(`Alien Word: ${this.words.toUpperCase()}`);
-        console.log(`Numeral: ${this.words.toUpperCase()}`);
+        console.log(`Numeral: ${this.numeral}`);
         console.log("------------------------");
     }
 }
